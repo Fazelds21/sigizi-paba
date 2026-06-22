@@ -7,6 +7,10 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+Route::get('/ui', function () {
+    return view('ui');
+});
+
 require __DIR__.'/auth.php';
 
 // Admin Routes

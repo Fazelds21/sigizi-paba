@@ -1,0 +1,1090 @@
+
+Design a complete responsive web application called **SiGizi PABA (Sistem Informasi Gizi Pambalang Batu)**.
+
+
+
+The web is a healthcare and nutrition management platform that connects parents/patients, nutritionists, and administrators.
+
+
+
+Create a modern, professional, clean healthcare UI with a desktop-first approach.
+
+
+
+---
+
+
+
+## DESIGN STYLE
+
+
+
+* Modern Healthcare Dashboard
+
+* Clean and minimalist
+
+* Professional medical appearance
+
+* Rounded corners (12–16px)
+
+* Soft shadows
+
+* Spacious layout
+
+* Responsive design
+
+* Accessible UI
+
+* Consistent design system
+
+
+
+### Color Palette
+
+
+
+Primary:
+
+
+
+* Green (#2E7D32)
+
+
+
+Secondary:
+
+
+
+* Light Green (#81C784)
+
+
+
+Accent:
+
+
+
+* Blue (#42A5F5)
+
+
+
+Background:
+
+
+
+* White (#FFFFFF)
+
+* Light Gray (#F5F7FA)
+
+
+
+---
+
+
+
+# USER ROLES
+
+
+
+The system has three user roles:
+
+
+
+1. Pasien
+
+2. Ahli Gizi
+
+3. Admin
+
+
+
+Each role has a different dashboard and features.
+
+
+
+---
+
+
+
+# SCREEN 1 – INTRODUCTION / ONBOARDING
+
+
+
+Create a modern landing page.
+
+
+
+### Hero Section
+
+
+
+Title:
+
+"Pantau dan Tingkatkan Status Gizi Anak dengan Mudah"
+
+
+
+Subtitle:
+
+"Platform konsultasi, monitoring, dan edukasi gizi untuk anak berkebutuhan khusus."
+
+
+
+CTA Buttons:
+
+
+
+* Mulai Sekarang
+
+* Pelajari Lebih Lanjut
+
+
+
+Illustration:
+
+
+
+* Parent and child
+
+* Nutrition monitoring
+
+* Healthcare concept
+
+
+
+---
+
+
+
+## Features Preview
+
+
+
+Display feature cards:
+
+
+
+* Kalkulator Status Gizi
+
+* Konsultasi Online
+
+* Monitoring Pertumbuhan
+
+* Edukasi Gizi
+
+
+
+---
+
+
+
+# SCREEN 2 – LOGIN
+
+
+
+Create a login page exactly like a role-based authentication system.
+
+
+
+At the top, place role selection tabs:
+
+
+
+* Pasien
+
+* Ahli Gizi
+
+* Admin
+
+
+
+Only one tab can be active at a time.
+
+
+
+The login form remains the same for all roles.
+
+
+
+### Login Form
+
+
+
+Fields:
+
+
+
+* Email
+
+* Password
+
+
+
+Features:
+
+
+
+* Show/Hide Password
+
+* Remember Me
+
+* Forgot Password
+
+
+
+Buttons:
+
+
+
+* Masuk
+
+
+
+Bottom Link:
+
+
+
+* Belum punya akun? Daftar Sekarang
+
+
+
+When login succeeds:
+
+
+
+* Pasien → Dashboard Pasien
+
+* Ahli Gizi → Dashboard Ahli Gizi
+
+* Admin → Dashboard Admin
+
+
+
+---
+
+
+
+# SCREEN 3 – REGISTER
+
+
+
+Fields:
+
+
+
+* Nama Lengkap
+
+* Email
+
+* Nomor WhatsApp
+
+* Password
+
+* Konfirmasi Password
+
+
+
+Button:
+
+
+
+* Daftar
+
+
+
+Link:
+
+
+
+* Sudah punya akun? Login
+
+
+
+---
+
+
+
+# PASIEN DASHBOARD
+
+
+
+Modern healthcare dashboard with sidebar navigation.
+
+
+
+---
+
+
+
+## Sidebar Menu
+
+
+
+* Dashboard
+
+* Kalkulator Status Gizi
+
+* Konsultasi Online
+
+* Riwayat Konsultasi
+
+* Edukasi
+
+* Profil
+
+
+
+---
+
+
+
+## Dashboard Overview
+
+
+
+Display summary cards:
+
+
+
+* Status Gizi Terakhir
+
+* Jadwal Konsultasi Berikutnya
+
+* Total Konsultasi
+
+* Progress Pertumbuhan Anak
+
+
+
+Display charts:
+
+
+
+* Grafik Berat Badan
+
+* Grafik Tinggi Badan
+
+* Grafik IMT
+
+
+
+Quick Action Buttons:
+
+
+
+* Hitung IMT
+
+* Konsultasi Sekarang
+
+* Lihat Edukasi
+
+
+
+---
+
+
+
+# SCREEN – KALKULATOR STATUS GIZI
+
+
+
+Create a nutrition calculator page.
+
+
+
+### Form Data Anak
+
+
+
+Fields:
+
+
+
+* Nama Anak
+
+* Umur
+
+* Jenis Kelamin
+
+* Berat Badan (kg)
+
+* Tinggi Badan (cm)
+
+
+
+Buttons:
+
+
+
+* Hitung IMT
+
+* Cek Status Gizi
+
+
+
+### Result Section
+
+
+
+Show:
+
+
+
+* Nilai IMT
+
+* Kategori Status Gizi
+
+* Interpretasi
+
+* Rekomendasi Nutrisi
+
+
+
+---
+
+
+
+# SCREEN – KONSULTASI ONLINE
+
+
+
+Create nutritionist selection page.
+
+
+
+### Search Filters
+
+
+
+* Nama Ahli Gizi
+
+* Spesialisasi
+
+* Rating
+
+
+
+### Nutritionist Cards
+
+
+
+Show:
+
+
+
+* Photo
+
+* Name
+
+* Specialization
+
+* Experience
+
+* Rating
+
+
+
+Buttons:
+
+
+
+* Lihat Profil
+
+* Pilih Ahli Gizi
+
+
+
+---
+
+
+
+# SCREEN – DETAIL AHLI GIZI
+
+
+
+Display:
+
+
+
+* Profile Picture
+
+* Biography
+
+* Experience
+
+* Certifications
+
+* Consultation Schedule
+
+
+
+Buttons:
+
+
+
+* Buat Janji
+
+* Chat WhatsApp
+
+
+
+---
+
+
+
+# SCREEN – RIWAYAT KONSULTASI
+
+
+
+Display table:
+
+
+
+Columns:
+
+
+
+* Tanggal
+
+* Nama Ahli Gizi
+
+* Status
+
+* Ringkasan
+
+
+
+Actions:
+
+
+
+* Detail
+
+* Download Hasil
+
+
+
+---
+
+
+
+# SCREEN – EDUKASI
+
+
+
+Create an education portal.
+
+
+
+Categories:
+
+
+
+* Nutrisi Anak
+
+* Pola Makan
+
+* Pertumbuhan
+
+* Anak Berkebutuhan Khusus
+
+
+
+Display educational content cards.
+
+
+
+---
+
+
+
+# SCREEN – PANDUAN
+
+
+
+Display:
+
+
+
+* PDF Guides
+
+* Infographics
+
+* Articles
+
+
+
+Card Layout:
+
+
+
+* Thumbnail
+
+* Title
+
+* Description
+
+* Download Button
+
+
+
+---
+
+
+
+# SCREEN – VIDEO EDUKASI
+
+
+
+Create a video gallery.
+
+
+
+Each card contains:
+
+
+
+* Thumbnail
+
+* Title
+
+* Duration
+
+* Play Button
+
+
+
+---
+
+
+
+# AHLI GIZI DASHBOARD
+
+
+
+Professional nutritionist workspace.
+
+
+
+---
+
+
+
+## Sidebar Menu
+
+
+
+* Dashboard
+
+* Monitoring Pasien
+
+* Rekam Konsultasi
+
+* Riwayat Konsultasi
+
+* Kelola Edukasi
+
+* Profil
+
+
+
+---
+
+
+
+## Dashboard Overview
+
+
+
+Cards:
+
+
+
+* Total Pasien Aktif
+
+* Konsultasi Hari Ini
+
+* Jadwal Hari Ini
+
+* Total Materi Edukasi
+
+
+
+Display:
+
+
+
+* Today's Appointments
+
+* Recent Patient Activity
+
+
+
+---
+
+
+
+# SCREEN – MONITORING PASIEN
+
+
+
+Display patient list.
+
+
+
+Columns:
+
+
+
+* Nama Pasien
+
+* Umur
+
+* Status Gizi
+
+* Konsultasi Terakhir
+
+
+
+Actions:
+
+
+
+* Detail
+
+* Monitoring
+
+
+
+---
+
+
+
+# SCREEN – DETAIL PASIEN
+
+
+
+Show:
+
+
+
+* Biodata Anak
+
+* Riwayat Berat Badan
+
+* Riwayat Tinggi Badan
+
+* Grafik IMT
+
+* Riwayat Konsultasi
+
+
+
+---
+
+
+
+# SCREEN – REKAM KONSULTASI
+
+
+
+Create consultation record form.
+
+
+
+Fields:
+
+
+
+* Nama Pasien
+
+* Keluhan
+
+* Hasil Pemeriksaan
+
+* Diagnosa Gizi
+
+* Rekomendasi
+
+* Jadwal Kontrol Berikutnya
+
+
+
+Button:
+
+
+
+* Simpan Rekam Konsultasi
+
+
+
+---
+
+
+
+# SCREEN – RIWAYAT KONSULTASI AHLI GIZI
+
+
+
+Display consultation history table.
+
+
+
+Features:
+
+
+
+* Search
+
+* Filter
+
+* Sort
+
+
+
+---
+
+
+
+# SCREEN – KELOLA EDUKASI
+
+
+
+Content Management System.
+
+
+
+Features:
+
+
+
+* Upload Artikel
+
+* Upload Panduan
+
+* Upload Video
+
+
+
+Display content table.
+
+
+
+---
+
+
+
+# ADMIN DASHBOARD
+
+
+
+Modern administration dashboard.
+
+
+
+---
+
+
+
+## Sidebar Menu
+
+
+
+* Dashboard
+
+* Kelola Data Pasien
+
+* Manajemen Jadwal
+
+* Laporan Statistik
+
+* Kelola Master Data
+
+* Profil
+
+
+
+---
+
+
+
+## Dashboard Overview
+
+
+
+Summary Cards:
+
+
+
+* Total Pasien
+
+* Total Ahli Gizi
+
+* Total Konsultasi
+
+* Total Konten Edukasi
+
+
+
+Charts:
+
+
+
+* Distribusi Status Gizi
+
+* Konsultasi Bulanan
+
+* Pertumbuhan Pengguna
+
+
+
+---
+
+
+
+# SCREEN – KELOLA DATA PASIEN
+
+
+
+Display patient management table.
+
+
+
+Columns:
+
+
+
+* Nama
+
+* Umur
+
+* Status Gizi
+
+* Nomor WhatsApp
+
+
+
+Actions:
+
+
+
+* Detail
+
+* Edit
+
+* Hapus
+
+
+
+---
+
+
+
+# SCREEN – MANAJEMEN JADWAL
+
+
+
+Calendar-based scheduling page.
+
+
+
+Features:
+
+
+
+* Tambah Jadwal
+
+* Edit Jadwal
+
+* Batalkan Jadwal
+
+
+
+---
+
+
+
+# SCREEN – LAPORAN STATISTIK
+
+
+
+Interactive analytics dashboard.
+
+
+
+Show:
+
+
+
+* Nutrition Status Statistics
+
+* Consultation Trends
+
+* Monthly Reports
+
+
+
+Export Options:
+
+
+
+* PDF
+
+* Excel
+
+
+
+---
+
+
+
+# SCREEN – KELOLA MASTER DATA
+
+
+
+Manage:
+
+
+
+* Data Ahli Gizi
+
+* Kategori Edukasi
+
+* Referensi Status Gizi
+
+* User Management
+
+
+
+Display modern CRUD interface.
+
+
+
+---
+
+
+
+# ADDITIONAL REQUIREMENTS
+
+
+
+* Use sidebar navigation on dashboard pages
+
+* Use top navigation bar
+
+* Include notification center
+
+* Include user profile dropdown
+
+* Use realistic healthcare dashboard charts
+
+* Use modern cards, tables, and analytics
+
+* Create complete clickable prototype flow
+
+* Maintain consistent healthcare design language across all screens
+
+* Create high-fidelity UI suitable for university final project and healthcare startup presentation
+
+
+
+Generate all screens with consistent design system, reusable components, and professional healthcare user experience.
